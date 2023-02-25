@@ -1,0 +1,20 @@
+{
+    "name": "marcotulio21mm/ecommerce",
+    "authors": [
+        {
+            "name": "Marco",
+            "email": "marcotulio21mm@gmail.com"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"5.2.22",
+    	"slim/slim":"4.*",
+        "slim/psr7": "dev-master",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hcode\\": "vendor\\hcodebr\\php-classes\\src"
+        }
+    }
+}
